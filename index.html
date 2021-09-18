@@ -45,7 +45,20 @@
                    minlength: 14,
                    maxlegth: 101
                  }
-                 var rules
+                 var rules = [ruleBoolean, ruleAge];
+                 var v = new validator[rules];
+                 var b = 'true';
+                 var boolvalidationresult =
+                 v.validateBoolean[b, ruleBoolean];
+                 console.log['boolean valid: ',
+                boolvalidationresult.is_valid]
+
+                var userAge = 13;
+                var agevalidationresults =
+                v.validateInteger[userAge, ruleAge];
+                console.log[agevalidation is valid:",
+                agevalidationresults.is_valid,
+                agevalidationresults.message];
                </script>
 
 
