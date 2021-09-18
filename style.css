@@ -315,3 +315,22 @@ box-sizing: border-box;
     border: 1px solid #ccc;
   }
 }
+
+.srp #searchform {
+  position: absolute;
+  top: 20px;
+  margin-top: 6px;
+}
+
+input[type=text] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 100%;
+}
+
+    /*[@id="searchform"]
