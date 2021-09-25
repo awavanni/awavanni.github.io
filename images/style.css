@@ -46,7 +46,7 @@ color: coral;
 }
 
 .mypics img{
-width: 190px;
+width: 10px;
 margin: auto;
 
 }
@@ -54,13 +54,25 @@ margin: auto;
 .mypics img{
     text-align: center;
     border-radius: 50%;
+    font-size: small;
+    text-align: center;
+    margin: auto;
     }
+
+    .mot{
+      text-align: center;
+      border-radius: 50%;
+      font-size: small;
+      text-align: center;
+      margin: auto;
+      }
+  
 
     .first{
         margin: auto;
         display: block;
         text-align: center;
-    }
+    } 
   
 
 caption{
