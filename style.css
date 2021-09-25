@@ -22,7 +22,7 @@ ul {
   }
   
  .mypics img{
-  border-radius: 1000px;
+  border-radius: 50%;
   text-align: center;
    color: black;
  }
