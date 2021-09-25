@@ -21,17 +21,12 @@ ul {
     text-transform: uppercase;
   }
   
- .mypics{
-  border-radius: 23px;
+ .mypics img{
+  border-radius: 1000px;
   text-align: center;
    color: black;
  }
 
- mymenu{
-   background-color: #04AA6D;
- }
-
- 
  
   /* Change the link color to #111 (black) on hover */
   li a:hover {
@@ -266,9 +261,7 @@ padding-top: 34px;
 box-sizing: border-box;
 }
 
-.weraty{
-  border-radius: 23px;
-}
+
 
 /* Add a black background color to the top navigation bar */
 .topnav {
