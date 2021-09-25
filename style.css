@@ -266,6 +266,10 @@ padding-top: 34px;
 box-sizing: border-box;
 }
 
+weraty{
+  border-radius: 23px;
+}
+
 /* Add a black background color to the top navigation bar */
 .topnav {
   overflow: hidden;
