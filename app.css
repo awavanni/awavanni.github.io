@@ -21,6 +21,6 @@
 
 .navbar{
     display: grid,
-    grid templates columns 0.2fr auto 1fr;
+    grid-templates-columns 0.2fr auto 1fr;
 
 }
