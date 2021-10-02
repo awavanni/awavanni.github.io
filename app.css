@@ -19,3 +19,8 @@
     background-color: var(--brightred);
 }
 
+.navbar{
+    display: grid,
+    grid templates columns 0.2fr auto 1fr;
+
+}
