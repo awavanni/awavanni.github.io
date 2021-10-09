@@ -2,7 +2,7 @@
 <html>
    <head>
        <link rel="stylesheet" type="text/css" href="style.css">
-     <title>programmer Bros</title>
+       <title>programmer Bros</title>
        <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css">
    </head>
     <body style="background-color:rgb(27, 110, 189)">
@@ -17,15 +17,43 @@
               <li ><a class="active" href="about.html"><i class="fas fa-address-card"></i> About</a></li>
               <li><a href="freinds.html"><i class="fas fa-users"></i> freinds</a></li>
               <li><a href="contact.html"><i class="fas fa-phone"></i> Contact</a></li>
-               </ul>
-               </div>
-              <div class="topnav">
-                <a href="kardenomg.html">kardenomg</a>
-                <a href="mc naveed.html" style="color: black;">mc naveed</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
-              </div>
-  
+               
+              </ul>
+        </div>
+
+        //To make button work like a tag do this:
+        <button type="button" onclick="window.location.href='kardenomg.html'">Go Back</button>
+        <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+
+        <ul id="myMenu" style="background-color: chartreuse;">
+          <li><a href="kardenomg"></a></li>
+          <li><a href="sammy"></a></li>
+          <li><a href="ronaldoMG"></a></li>
+          <li><a href="Mc naveed"></a></li>
+            <li><a href="TheAtlanticCraft"></a></li>
+          <li><a href=">logthatzipthere"></a></li>
+        </ul>
+
+        <script>
+            function myFunction() {
+              // Declare variables
+              var input, filter, ul, li, a, i;
+              input = document.getElementById("mySearch");
+              filter = input.value.toUpperCase();
+              ul = document.getElementById("myMenu");
+              li = ul.getElementsByTagName("li");
+            
+              // Loop through all list items, and hide those who don't match the search query
+              for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                  li[i].style.display = "";
+                } else {
+                  li[i].style.display = "none";
+                }
+              }
+            }
+            </script>
 
        
         <h1 style="text-align: center; color: black;"> Minecraft</h1>
